@@ -27,6 +27,6 @@
 
             $httpProvider.interceptors.push('authInterceptor');
 
-            $routeProvider.when('/', { template: 'Hello World!' });
+            $routeProvider.when('/', { templateUrl: '/Presentation/ngApp/views/landingPage.html' });
         });
 }
